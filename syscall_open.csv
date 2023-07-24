@@ -1,0 +1,571 @@
+﻿A
+"             exe-1050008 [001] ..... 3562824.240547: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_CREAT, umode_t mode=666) start"
+             exe-1050008 [001] ..... 3562824.240562: sys_pwrite64 -> 0x6d
+"             exe-1050008 [001] ..... 3562824.240565: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.240567: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.240568: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.240573: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.240574: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.240579: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.240580: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1050015 [002] ..... 3562824.240593: sys_write -> 0x6d
+             exe-1050008 [001] ..... 3562824.240628: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.240630: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1049673 [002] ..... 3562824.240644: sys_nanosleep -> 0x0
+             exe-1050008 [001] ..... 3562824.240645: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.240646: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.240647: sys_ptrace -> 0x0
+"             exe-1049673 [002] ..... 3562824.240650: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.240697: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.240706: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.240707: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.240740: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.240742: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.240762: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.240826: sys_nanosleep -> 0x0
+"             exe-1049716 [003] ..... 3562824.240827: sys_newfstat(fd: 2e, statbuf: c000477910)"
+"             exe-1049673 [002] ..... 3562824.240828: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.240833: sys_newfstat -> 0x0
+"             exe-1049716 [003] ..... 3562824.240836: sys_openat(dfd: 2e, filename: c0005ce0d0, flags: 2a0000, mode: 0)"
+             exe-1049716 [003] ..... 3562824.240881: sys_openat -> 0x64
+"             exe-1049716 [003] ..... 3562824.240885: sys_newfstat(fd: 64, statbuf: c000477910)"
+             exe-1049716 [003] ..... 3562824.240886: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.240888: sys_close(fd: 64)
+             exe-1049716 [003] ..... 3562824.240889: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.240898: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.240913: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.240915: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.240917: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.240919: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.240929: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.240982: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.240984: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.241015: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.241022: sys_nanosleep -> 0x0
+             exe-1050008 [001] ..... 3562824.241023: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.241024: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1049567 [002] ..... 3562824.241030: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.241048: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.241083: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241089: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049716 [003] ..... 3562824.241096: sys_openat(dfd: 98, filename: c0005ce0f0, flags: a0800, mode: 0)"
+             exe-1049567 [002] ..... 3562824.241108: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241113: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.241171: sys_openat -> 0xfffffffffffffffe
+"             exe-1049716 [003] ..... 3562824.241185: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.241187: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241192: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.241198: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.241200: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.241209: sys_futex -> 0x0
+             exe-1049567 [002] ..... 3562824.241210: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 3562824.241215: sys_getpid()
+             exe-1049567 [002] ..... 3562824.241216: sys_getpid -> 0x1003ce
+"             exe-1049567 [002] ..... 3562824.241219: sys_tgkill(tgid: 1003ce, pid: 100598, sig: 17)"
+"             exe-1050008 [001] ..... 3562824.241228: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.241231: sys_tgkill -> 0x0
+"             exe-1049567 [002] ..... 3562824.241233: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.241237: sys_futex -> 0x1
+             exe-1050008 [001] ..... 3562824.241244: sys_rt_sigreturn()
+"             exe-1050008 [001] ..... 3562824.241246: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049896 [003] ..... 3562824.241282: sys_epoll_pwait -> 0x0
+             exe-1049673 [002] ..... 3562824.241290: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241295: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049896 [003] ..... 3562824.241297: sys_futex(uaddr: c00516a148, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049896 [003] ..... 3562824.241312: sys_futex -> 0x1
+             exe-1049567 [002] ..... 3562824.241314: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241318: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049896 [003] ..... 3562824.241328: sys_epoll_pwait(epfd: 11, events: c000599840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)"
+             exe-1049716 [003] ..... 3562824.241350: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.241380: sys_openat(dfd: 98, filename: c0005ce120, flags: a08c0, mode: 1a4)"
+             exe-1050283 [000] ..... 3562824.241386: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.241394: sys_nanosleep -> 0x0
+"             exe-1050283 [000] ..... 3562824.241398: sys_futex(uaddr: c00516a148, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1049673 [002] ..... 3562824.241398: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241417: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241422: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.241497: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241502: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241520: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241524: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.241600: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241605: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241623: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241627: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.241658: sys_openat -> 0x64
+"             exe-1049716 [003] ..... 3562824.241666: sys_fchownat(dfd: 64, filename: c0005ce0ba, user: 0, group: 0, flag: 1100)"
+             exe-1049716 [003] ..... 3562824.241689: sys_fchownat -> 0x0
+"             exe-1049716 [003] ..... 3562824.241692: sys_newfstat(fd: 64, statbuf: c000477398)"
+             exe-1049716 [003] ..... 3562824.241694: sys_newfstat -> 0x0
+             exe-1049673 [002] ..... 3562824.241704: sys_nanosleep -> 0x0
+"             exe-1049716 [003] ..... 3562824.241704: sys_openat(dfd: 16, filename: c0005ce130, flags: 80000, mode: 0)"
+"             exe-1049673 [002] ..... 3562824.241709: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241728: sys_nanosleep -> 0x0
+             exe-1049716 [003] ..... 3562824.241732: sys_openat -> 0x7d
+"             exe-1049567 [002] ..... 3562824.241732: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.241809: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241814: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241832: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.241836: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.241888: sys_dup(fildes: 7d)
+             exe-1049716 [003] ..... 3562824.241890: sys_dup -> 0x85
+"             exe-1049716 [003] ..... 3562824.241901: sys_fcntl(fd: 85, cmd: 3, arg: 0)"
+             exe-1049716 [003] ..... 3562824.241903: sys_fcntl -> 0x8000
+"             exe-1049716 [003] ..... 3562824.241905: sys_fcntl(fd: 85, cmd: 4, arg: 8800)"
+             exe-1049716 [003] ..... 3562824.241905: sys_fcntl -> 0x0
+             exe-1049673 [002] ..... 3562824.241912: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.241917: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.241942: sys_nanosleep -> 0x0
+"             exe-1049716 [003] ..... 3562824.241945: sys_sendmsg(fd: 32, msg: c00038e0d8, flags: 0)"
+"             exe-1049567 [002] ..... 3562824.241946: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.242010: sys_sendmsg -> 0x0
+             exe-1049716 [003] ..... 3562824.242013: sys_close(fd: 85)
+             exe-1049716 [003] ..... 3562824.242014: sys_close -> 0x0
+             exe-1049673 [002] ..... 3562824.242015: sys_nanosleep -> 0x0
+"             exe-1049716 [003] ..... 3562824.242017: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1049673 [002] ..... 3562824.242020: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.242033: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.242036: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.242038: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.242043: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.242046: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.242049: sys_recvmsg(fd: 4b, msg: c0004d25e8, flags: 60)"
+             exe-1050008 [001] ..... 3562824.242061: sys_recvmsg -> 0x0
+"             exe-1050008 [001] ..... 3562824.242077: sys_futex(uaddr: c00516a148, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.242083: sys_futex -> 0x1
+             exe-1049673 [002] ..... 3562824.242118: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.242123: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.242154: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.242158: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.242159: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.242168: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.242169: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050283 [000] ..... 3562824.242170: sys_futex -> 0x0
+             exe-1050008 [001] ..... 3562824.242179: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.242180: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+"             exe-1050283 [000] ..... 3562824.242181: sys_nanosleep(rqtp: c001351d50, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.242184: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.242186: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1050015 [002] ..... 3562824.242227: sys_open -> 0x4
+             exe-1049673 [002] ..... 3562824.242255: sys_nanosleep -> 0x0
+             exe-1050008 [001] ..... 3562824.242258: sys_wait4 -> 0x10059f
+"             exe-1049673 [002] ..... 3562824.242260: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.242260: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.242263: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.242264: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.242265: sys_ptrace -> 0x0
+             exe-1050283 [000] ..... 3562824.242270: sys_nanosleep -> 0x0
+"             exe-1050008 [001] ..... 3562824.242272: sys_pwrite64(fd: 63, buf: 7fd66d92f490, count: 6b, pos: 6d)"
+"             exe-1050008 [001] ..... 3562824.242274: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_CREAT, umode_t mode=666) end"
+"             exe-1050008 [001] ..... 3562824.315746: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_RDONLY, umode_t mode=666) start"
+             exe-1050008 [001] ..... 3562824.315747: sys_pwrite64 -> 0x6e
+"             exe-1050008 [001] ..... 3562824.315751: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.315752: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.315753: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.315758: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.315759: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.315770: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.315772: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1049673 [002] ..... 3562824.315803: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.315808: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.315829: sys_nanosleep -> 0x0
+             exe-1050015 [000] ..... 3562824.315830: sys_write -> 0x6e
+"             exe-1049567 [002] ..... 3562824.315833: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.315850: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.315852: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.315854: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.315855: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.315856: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.315870: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.315879: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.315881: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.315915: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.315920: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.315940: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.315945: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.315955: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.315975: sys_newfstat(fd: 2e, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.315980: sys_newfstat -> 0x0
+"             exe-1049716 [003] ..... 3562824.315984: sys_openat(dfd: 2e, filename: c0005ce300, flags: 2a0000, mode: 0)"
+             exe-1049716 [003] ..... 3562824.315999: sys_openat -> 0xac
+"             exe-1049716 [003] ..... 3562824.316001: sys_newfstat(fd: ac, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.316002: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.316004: sys_close(fd: ac)
+             exe-1049716 [003] ..... 3562824.316005: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.316013: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.316026: sys_nanosleep -> 0x0
+             exe-1049716 [003] ..... 3562824.316029: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.316031: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1049673 [002] ..... 3562824.316031: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.316035: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.316043: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.316048: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.316049: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.316052: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.316056: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.316060: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.316067: sys_openat(dfd: 98, filename: c0005ce330, flags: 2a0000, mode: 0)"
+             exe-1049716 [003] ..... 3562824.316072: sys_openat -> 0xac
+"             exe-1049716 [003] ..... 3562824.316074: sys_newfstat(fd: ac, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.316076: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.316078: sys_close(fd: ac)
+             exe-1049716 [003] ..... 3562824.316079: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.316083: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.316090: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.316092: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.316098: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.316109: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.316112: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.316113: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.316121: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.316123: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.316128: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.316129: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1049673 [002] ..... 3562824.316140: sys_nanosleep -> 0x0
+             exe-1050015 [000] ..... 3562824.316140: sys_open -> 0x4
+"             exe-1049673 [002] ..... 3562824.316145: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.316161: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.316163: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.316165: sys_ptrace -> 0x0
+             exe-1049567 [002] ..... 3562824.316165: sys_nanosleep -> 0x0
+"             exe-1050008 [001] ..... 3562824.316166: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.316167: sys_ptrace -> 0x0
+"             exe-1049567 [002] ..... 3562824.316170: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.316172: sys_pwrite64(fd: 63, buf: 7fd66d92f490, count: 6c, pos: 6e)"
+"             exe-1050008 [001] ..... 3562824.316173: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_RDONLY, umode_t mode=666) end"
+"             exe-1050008 [001] ..... 3562824.391429: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_WRONLY, umode_t mode=666) start"
+             exe-1050008 [001] ..... 3562824.391431: sys_pwrite64 -> 0x6e
+             exe-1049673 [002] ..... 3562824.391432: sys_nanosleep -> 0x0
+"             exe-1050008 [001] ..... 3562824.391435: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+"             exe-1049673 [002] ..... 3562824.391437: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.391438: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.391439: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.391447: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.391448: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.391455: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.391457: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1049567 [002] ..... 3562824.391458: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.391463: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050015 [000] ..... 3562824.391464: sys_write -> 0x6e
+             exe-1050008 [001] ..... 3562824.391479: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.391481: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.391484: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.391485: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.391487: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.391500: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.391509: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.391511: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.391539: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.391544: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.391565: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.391570: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.391648: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.391653: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.391674: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.391678: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.391756: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.391761: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.391781: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.391786: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.391863: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.391868: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.391889: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.391893: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.391970: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.391975: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.391995: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392000: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392077: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392082: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392102: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392107: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392183: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392188: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392209: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392214: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392290: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392295: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392316: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392320: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392397: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392402: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392422: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392427: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392503: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392508: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392529: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392534: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392610: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392615: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392636: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392640: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392717: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392722: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392743: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392747: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392824: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392829: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392850: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392854: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.392931: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.392936: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.392956: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.392961: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393037: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393042: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393063: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393068: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393144: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393149: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393170: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393174: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393251: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393256: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393276: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393281: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393358: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393362: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393383: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393388: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393464: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393469: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393490: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393495: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393571: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393576: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393597: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393601: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393677: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393682: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393758: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393761: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393776: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393781: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393861: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393866: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.393960: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.393963: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.393977: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.393982: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049896 [003] ..... 3562824.393995: sys_epoll_pwait -> 0x0
+"             exe-1049896 [003] ..... 3562824.394011: sys_futex(uaddr: c00516a148, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049896 [003] ..... 3562824.394021: sys_futex -> 0x1
+"             exe-1049896 [003] ..... 3562824.394040: sys_epoll_pwait(epfd: 11, events: c000599840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)"
+             exe-1049716 [003] ..... 3562824.394065: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.394083: sys_newfstat(fd: 2e, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.394088: sys_newfstat -> 0x0
+"             exe-1049716 [003] ..... 3562824.394092: sys_openat(dfd: 2e, filename: c0005ce4f0, flags: 2a0000, mode: 0)"
+             exe-1049673 [002] ..... 3562824.394100: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394106: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.394109: sys_openat -> 0xae
+"             exe-1049716 [003] ..... 3562824.394112: sys_newfstat(fd: ae, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.394113: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.394115: sys_close(fd: ae)
+             exe-1049716 [003] ..... 3562824.394116: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.394123: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.394162: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.394164: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050283 [003] ..... 3562824.394203: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.394207: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394213: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.394216: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.394249: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.394265: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.394268: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.394308: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394313: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.394418: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394423: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.394566: sys_nanosleep -> 0x0
+             exe-1049673 [002] ..... 3562824.394608: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394614: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049567 [002] ..... 3562824.394634: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.394715: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394720: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.394815: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394818: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.394906: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394908: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.394911: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.394928: sys_openat(dfd: 98, filename: c0005ce520, flags: 2a0000, mode: 0)"
+             exe-1049716 [003] ..... 3562824.394944: sys_openat -> 0xae
+"             exe-1049716 [003] ..... 3562824.394947: sys_newfstat(fd: ae, statbuf: c00052f910)"
+             exe-1049716 [003] .N... 3562824.394961: sys_newfstat -> 0x0
+             exe-1049673 [002] ..... 3562824.394995: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.394997: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.395084: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.395086: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.395173: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.395175: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.395301: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.395303: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.395350: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.395358: sys_futex(uaddr: c000516948, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] .N... 3562824.395378: sys_futex -> 0x1
+"             exe-1050283 [000] ..... 3562824.395430: sys_futex(uaddr: c004fda148, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050283 [000] .N... 3562824.395444: sys_futex -> 0x1
+             exe-1050279 [000] ..... 3562824.395450: sys_futex -> 0x0
+"             exe-1050279 [000] ..... 3562824.395458: sys_futex(uaddr: c004fda148, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1050283 [000] ..... 3562824.395474: sys_futex(uaddr: c00516a148, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.395565: sys_close(fd: ae)
+             exe-1049716 [003] ..... 3562824.395568: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.395578: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.395592: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.395594: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049750 [003] ..... 3562824.395615: sys_futex -> 0x0
+"             exe-1049750 [003] ..... 3562824.395627: sys_futex(uaddr: c000516948, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.396259: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.396266: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049567 [002] ..... 3562824.396295: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.396389: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.396394: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.396498: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.396503: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.396889: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.396898: sys_futex(uaddr: 1f09dc0, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.396910: sys_futex -> 0x1
+             exe-1049673 [002] ..... 3562824.396915: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.396918: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.396933: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.396934: sys_futex -> 0x0
+"             exe-1049567 [002] ..... 3562824.396939: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.396949: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.396951: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.397028: sys_futex -> 0x0
+             exe-1049567 [002] ..... 3562824.397042: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.397046: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1049716 [003] ..... 3562824.397047: sys_openat(dfd: 16, filename: c0005ce51c, flags: 80002, mode: 0)"
+             exe-1049716 [003] ..... 3562824.397078: sys_openat -> 0xae
+             exe-1049716 [003] ..... 3562824.397081: sys_dup(fildes: ae)
+             exe-1049716 [003] ..... 3562824.397082: sys_dup -> 0xaf
+"             exe-1049716 [003] ..... 3562824.397112: sys_fcntl(fd: af, cmd: 3, arg: 0)"
+             exe-1049716 [003] ..... 3562824.397114: sys_fcntl -> 0x8002
+"             exe-1049716 [003] ..... 3562824.397116: sys_fcntl(fd: af, cmd: 4, arg: 8802)"
+             exe-1049716 [003] ..... 3562824.397117: sys_fcntl -> 0x0
+"             exe-1049716 [003] ..... 3562824.397122: sys_sendmsg(fd: 32, msg: c00038e0d8, flags: 0)"
+             exe-1049567 [002] ..... 3562824.397137: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.397139: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.397142: sys_sendmsg -> 0x0
+             exe-1049716 [003] ..... 3562824.397144: sys_close(fd: af)
+             exe-1049716 [003] ..... 3562824.397146: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.397148: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.397170: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.397172: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.397199: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.397204: sys_recvmsg(fd: 4b, msg: c0004d25e8, flags: 60)"
+             exe-1050008 [001] ..... 3562824.397222: sys_recvmsg -> 0x0
+"             exe-1050008 [001] ..... 3562824.397229: sys_dup3(oldfd: 95, newfd: 7a, flags: 80000)"
+             exe-1049567 [002] ..... 3562824.397229: sys_nanosleep -> 0x0
+             exe-1050008 [001] ..... 3562824.397231: sys_dup3 -> 0x7a
+"             exe-1049567 [002] ..... 3562824.397232: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.397246: sys_close(fd: 95)
+             exe-1050008 [001] ..... 3562824.397247: sys_close -> 0x0
+"             exe-1050008 [001] ..... 3562824.397281: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.397288: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.397289: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.397312: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.397314: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1049567 [002] ..... 3562824.397321: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.397323: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.397327: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.397330: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1050015 [000] ..... 3562824.397407: sys_open -> 0x4
+             exe-1049567 [002] ..... 3562824.397408: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.397410: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.397456: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.397459: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.397463: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.397465: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.397468: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.397483: sys_pwrite64(fd: 63, buf: 7fd66d92f490, count: 6c, pos: 6e)"
+"             exe-1050008 [001] ..... 3562824.397485: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_WRONLY, umode_t mode=666) end"
+"             exe-1050008 [001] ..... 3562824.472268: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_RDWR, umode_t mode=666) start"
+             exe-1050008 [001] ..... 3562824.472269: sys_pwrite64 -> 0x6c
+             exe-1049567 [002] ..... 3562824.472273: sys_nanosleep -> 0x0
+"             exe-1050008 [001] ..... 3562824.472274: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.472276: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472277: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+"             exe-1049567 [002] ..... 3562824.472277: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.472283: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472285: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.472291: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472293: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1050015 [000] ..... 3562824.472300: sys_write -> 0x6c
+             exe-1050008 [001] ..... 3562824.472320: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.472323: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.472325: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472326: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.472328: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472340: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.472353: sys_futex -> 0x1
+"             exe-1050008 [001] ..... 3562824.472356: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.472360: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.472365: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.472386: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.472390: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.472436: sys_futex -> 0x0
+"             exe-1049716 [003] ..... 3562824.472457: sys_newfstat(fd: 2e, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.472462: sys_newfstat -> 0x0
+"             exe-1049716 [003] ..... 3562824.472466: sys_openat(dfd: 2e, filename: c0005ce6e0, flags: 2a0000, mode: 0)"
+             exe-1049673 [002] ..... 3562824.472472: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.472477: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.472479: sys_openat -> 0xb0
+"             exe-1049716 [003] ..... 3562824.472481: sys_newfstat(fd: b0, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.472482: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.472485: sys_close(fd: b0)
+             exe-1049716 [003] ..... 3562824.472486: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.472494: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049567 [002] ..... 3562824.472497: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.472502: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.472515: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.472518: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049673 [002] ..... 3562824.472584: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.472589: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.472609: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.472614: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.472620: sys_futex -> 0x0
+"             exe-1050008 [001] ..... 3562824.472675: sys_futex(uaddr: 7fd669a4d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.472694: sys_futex -> 0x1
+             exe-1049673 [002] ..... 3562824.472695: sys_nanosleep -> 0x0
+"             exe-1050008 [001] ..... 3562824.472697: sys_futex(uaddr: 7fd669a4d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+"             exe-1049673 [002] ..... 3562824.472700: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.472715: sys_futex -> 0x0
+             exe-1049567 [002] ..... 3562824.472721: sys_nanosleep -> 0x0
+"             exe-1049716 [003] ..... 3562824.472723: sys_openat(dfd: 98, filename: c0005ce710, flags: 2a0000, mode: 0)"
+"             exe-1049567 [002] ..... 3562824.472726: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049716 [003] ..... 3562824.472729: sys_openat -> 0xb0
+"             exe-1049716 [003] ..... 3562824.472731: sys_newfstat(fd: b0, statbuf: c00052f910)"
+             exe-1049716 [003] ..... 3562824.472733: sys_newfstat -> 0x0
+             exe-1049716 [003] ..... 3562824.472735: sys_close(fd: b0)
+             exe-1049716 [003] ..... 3562824.472736: sys_close -> 0x0
+"             exe-1049716 [003] ..... 3562824.472740: sys_futex(uaddr: 7febab2d3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1049716 [003] ..... 3562824.472753: sys_futex -> 0x1
+"             exe-1049716 [003] ..... 3562824.472755: sys_futex(uaddr: 7febab2d3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)"
+             exe-1050008 [001] ..... 3562824.472782: sys_futex -> 0x0
+             exe-1049673 [002] ..... 3562824.472808: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.472813: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+"             exe-1050008 [001] ..... 3562824.472815: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.472822: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472824: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1049567 [002] ..... 3562824.472833: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.472838: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.472848: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472850: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)"
+             exe-1050008 [001] ..... 3562824.472863: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.472866: sys_wait4(upid: 10059f, stat_addr: c0024cbbf4, options: 40000002, ru: 0)"
+             exe-1049673 [002] ..... 3562824.472919: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.472924: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050015 [000] ..... 3562824.472939: sys_open -> 0x4
+             exe-1049567 [002] ..... 3562824.472944: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.472949: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049673 [002] ..... 3562824.473030: sys_nanosleep -> 0x0
+"             exe-1049673 [002] ..... 3562824.473035: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1049567 [002] ..... 3562824.473056: sys_nanosleep -> 0x0
+"             exe-1049567 [002] ..... 3562824.473060: sys_nanosleep(rqtp: c000069f10, rmtp: 0)"
+             exe-1050008 [001] ..... 3562824.473062: sys_wait4 -> 0x10059f
+"             exe-1050008 [001] ..... 3562824.473071: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.473079: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.473080: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0024cbc70)"
+             exe-1050008 [001] ..... 3562824.473084: sys_ptrace -> 0x0
+"             exe-1050008 [001] ..... 3562824.473104: sys_pwrite64(fd: 63, buf: 7fd66d92f490, count: 6a, pos: 6c)"
+"             exe-1050008 [001] ..... 3562824.473107: tracing_mark_write: open(const char *filename=""/program/TestEnvironment/opentestfile"", int flags=O_RDWR, umode_t mode=666) end"
